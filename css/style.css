@@ -1,0 +1,106 @@
+.banner {
+    background: #EEE4DB;
+    background-size: contain;
+    height: 372px;
+    font-weight: 636px;
+    padding: 89px 740px 195px 133px;
+    margin-top: 110px;
+    
+}
+
+.monstre {
+    background: url(../images/monstre.png) no-repeat;
+    position: absolute;
+    width: 635.49px;
+    height: 461px;
+    left: 555px;
+    top: 142px;
+    margin-bottom: 300px;
+    padding: 142px 100px 39px 445px;
+
+}
+
+
+.banner-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    padding: 0px;
+}
+
+.banner-text {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    margin: 20px auto 0px;
+}
+
+
+.banner-footer container {
+    width: 1180px;
+    height: 39px;
+    left: 110px;
+    top: 603px;
+    margin-bottom: 900px;
+}
+
+.banner-footer .text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    width: 1180px;
+    height: 39px;
+    background: #C29974;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.services {
+    margin-bottom: 90px;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    text-align: left;
+}
+
+.services-list {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.services-item {}
+
+.apparel-kids {
+    background: url('../images/dress.png') no-repeat #DBE4DB;
+    width: 280px;
+    height: 270px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.awards-logo {
+    display: flex;
+    width: 1180px;
+    text-align: center;
+}
