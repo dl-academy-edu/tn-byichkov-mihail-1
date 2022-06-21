@@ -4,7 +4,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
 }
+
+/* HEADER */
 
 .header {
     display: flex;
@@ -58,6 +63,7 @@ a {
 /* BUTTON */
 
 .button {
+    display: inline-block;
     background: #000000;
     color: #fff;
     font-weight: 700;
@@ -67,20 +73,23 @@ a {
     display: block;
     width: 161px;
     text-align: center;
-    padding: 9px;
+    padding: 9px 22px;
     border: none;
     cursor: pointer;
 }
 
 .button-secondary {
+    display: inline-block;
     width: 161px;
     height: 40px;
     left: 243px;
     top: 474px;
     background: #000000;
-    margin: 20px auto 0px 0px;
+    margin: 20px auto 89px 0px;
 
 }
+
+/* FOOTER */
 
 .footer {
     background: #434343;
