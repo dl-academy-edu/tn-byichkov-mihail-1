@@ -1,23 +1,23 @@
 /* BANNER */
 
+
+
 .banner {
+    position: relative;
     background: #EEE4DB;
     background-size: contain;
+    width: 1180px;
     height: 372px;
-    font-weight: 636px;
     margin-top: 129px;
+    padding: 89px 0 89px 133px;
 }
 
-.monstre {
-    background: url(../images/monstre.png) no-repeat;
+.banner img {
     position: absolute;
-    width: 635.49px;
-    height: 461px;
-    left: 555px;
-    top: 142px;
-    padding: 142px 39px 0px;
-}
+    top: -89px;
+    right: 100px;
 
+}
 
 .banner-title {
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +25,8 @@
     font-size: 40px;
     line-height: 110%;
     color: #1E0606;
-    padding: 89px 740px 195px 133px;
+    width: 30%;
+    
 }
 
 .banner-text {
@@ -34,16 +35,10 @@
     font-size: 20px;
     line-height: 26px;
     color: #1E0606;
-    padding: 20px 90px 50px 100px;
-}
+    margin: 20px 0px;
+   }
 
-
-.banner-footer container {
-    width: 1180px;
-
-}
-
-.banner-footer .text {
+.text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 12px;
@@ -57,6 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 1180px;
 
 }
 
@@ -138,7 +134,11 @@
 
 /* LOGO */
 
-.awards-logo {
+.awards {
+    margin-top: 101px;
+}
+
+.awards-list {
     display: flex;
     width: 1180px;
     justify-content: space-between;
