@@ -6,29 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img src="images/DLK.jpg" alt="">
-        </a>
-        <img src="images/Search.png" alt="">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Catalog</a>
-                </li>
-                <li>
-                    <a href="#">About us</a>
-                </li>
-            </ul>
-        </nav>
-        <a href="contact.html" class="button">Contact Us</a>
-    </header>
+	<header class="header container">
+		<a href="index.html">
+			<img src="images/DLK.jpg" alt="#" class="logo">
+		</a>
+		<nav class="undotted header-menu">
+			<ul class="undotted header-list">
+				<li>
+					<a href="#">Blog</a>
+				</li>
+				<li>
+					<a href="#">Catalog</a>
+				</li>
+				<li>
+					<a href="#">About us</a>
+				</li>
+			</ul>
+		</nav>
+			<img src="images/Search.png" alt="" class="header-search-lupa">
+			<a href="contact.html" class="header-search">Contact Us</a>
+	</header>
     <main>
         <section class="banner">
             <h1>TOY FOR KIDS</h1>
@@ -39,7 +48,7 @@
                 <fieldset>
                     <legend>Color
                     </legend>
-                    <ul>
+                    <ul class="undotted">
                         <li>
                             <label>
                                 <input name="black" type="checkbox" value="black">
@@ -71,7 +80,7 @@
                 <fieldset>
                     <legend>Delivery
                     </legend>
-                    <ul>
+                    <ul class="undotted">
                         <li>
                             <label>
                                 <input name="shipping" type="radio" value="free shipping">
@@ -91,7 +100,7 @@
                 <fieldset>
                     <legend>Amount
                     </legend>
-                    <ul>
+                    <ul class="undotted">
                         <li>
                             <label>
                                 <input name="amount" type="radio" value="0-5">
@@ -113,8 +122,8 @@
                     </ul>
                 </fieldset>
             </div>
-            <button type="submit">APPLY</button>
-            <ul>
+            <button class="button" type="submit">apply</button>
+            <ul class="undotted">
                 <li>
                     <img src="images/toys/toys1.png" alt="">
                     <a href="#">
@@ -160,10 +169,10 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
             <p>Navigation</p>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <a href="#">About us</a>
                 </li>
@@ -186,7 +195,7 @@
         </div>
         <div>
             <p>Customer Information</p>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <a href="#">Contact us</a>
                 </li>
@@ -211,9 +220,9 @@
         <form>
             <label for="input-name"></label>
             <input type="email" id="input-name" class="" placeholder="email">
-            <button type="submit">JOIN</button>
+            <button class="button" type="submit">join</button>
         </form>
-        <ul>
+        <ul class="undotted">
             <li>
                 <a href="#">
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">

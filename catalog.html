@@ -6,16 +6,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Catalog</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header>
+	<header class="header container">
 		<a href="index.html">
-			<img src="images/DLK.jpg" alt="">
+			<img src="images/DLK.jpg" alt="#" class="logo">
 		</a>
-		<img src="images/Search.png" alt="">
-		<nav>
-			<ul>
+		<nav class="undotted header-menu">
+			<ul class="undotted header-list">
 				<li>
 					<a href="#">Blog</a>
 				</li>
@@ -25,16 +30,16 @@
 				<li>
 					<a href="#">About us</a>
 				</li>
-
 			</ul>
 		</nav>
-		<a href="contact.html" class="button">Contact Us</a>
+			<img src="images/Search.png" alt="" class="header-search-lupa">
+			<a href="contact.html" class="header-search">Contact Us</a>
 	</header>
 	<main>
 		<section class="banner">
 			<h1>CATEGORY PRODUCTS</h1>
 			<section>
-				<ul>
+				<ul class="undotted">
 					<li>
 						<h2><a href="#">APPAREL KIDS</a></h2>
 					</li>
@@ -54,8 +59,6 @@
 						<h2><a href="#">APPAREL ADULTS</a></h2>
 					</li>
 				</ul>
-			</section>
-			<article>
 				<h2>Product Description</h2>
 				<p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You
 					can even bathe her, just like a little sister.</p>
@@ -64,12 +67,12 @@
 				<p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of
 					hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her
 					young mistress.</p>
-			</article>
+			</section>
 	</main>
-	<footer>
+	<footer class="footer">
 		<div>
 			<p>Navigation</p>
-			<ul>
+			<ul class="undotted">
 				<li>
 					<a href="#">About us</a>
 				</li>
@@ -92,7 +95,7 @@
 		</div>
 		<div>
 			<p>Customer Information</p>
-			<ul>
+			<ul class="undotted">
 				<li>
 					<a href="#">Contact us</a>
 				</li>
@@ -115,11 +118,11 @@
 		</div>
 		<p>Connect</p>
 		<form>
-		<label for="input-name"></label>
-		<input type="email" id="input-name" class="" placeholder="email">
-		<button type="submit">JOIN</button>
-	    </form>
-		<ul>
+			<label for="input-name"></label>
+			<input type="email" id="input-name" class="" placeholder="email">
+			<button class="button" type="submit">join</button>
+		</form>
+		<ul class="undotted">
 			<li>
 				<a href="#">
 					<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
