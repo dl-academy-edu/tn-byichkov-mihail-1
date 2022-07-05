@@ -1,0 +1,105 @@
+.services-catalog {
+    margin-top: 60px;
+}
+
+.services-title-catalog {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 30px;
+}
+
+.services-list-catalog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-item-catalog {
+    font-family: 'Montserrat';
+    display: flex;
+    text-transform: uppercase;
+    width: 280px;
+    height: 270px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.services-item-catalog:nth-child(1) {
+    background: #DBE4DB;
+    background-image: url(../images/t-shirt.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item-catalog:nth-child(2) {
+    background: #EADDD3;
+    background-image: url(../images/sock.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item-catalog:nth-child(3) {
+    background: #F8F2DA;
+    background-image: url(../images/deer.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item-catalog:nth-child(4) {
+    background: #D5D4E1;
+    background-image: url(../images/chupakabra.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item-catalog:nth-child(5) {
+    background: #F3D0DB;
+    background-image: url(../images/flamingo.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item-catalog:nth-child(6) {
+    background: #E5EAF8;
+    background-image: url(../images/dress.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin: 55px 604px 25px 310px;
+    width: 486px;
+}
+
+.product-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin: 25px 410px 15px 310px;
+    width: 680px;
+}
+
+.product-last {
+    margin-bottom: 55px;
+}

@@ -12,6 +12,13 @@
     padding: 89px 0 89px 133px;
 }
 
+.numbers {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
 .banner img {
     position: absolute;
     top: -89px;
@@ -26,7 +33,7 @@
     line-height: 110%;
     color: #1E0606;
     width: 30%;
-    
+
 }
 
 .banner-text {
@@ -36,7 +43,7 @@
     line-height: 26px;
     color: #1E0606;
     margin: 20px 0px;
-   }
+}
 
 .text {
     font-family: 'Open Sans', sans-serif;
@@ -53,83 +60,96 @@
     align-items: center;
     justify-content: center;
     min-width: 1180px;
-
 }
 
 /* CATEGORY PRODUCTS */
 
 .services {
-    font-family: 'Montserrat';
-    text-transform: uppercase p none;
     margin-top: 90px;
 }
 
 .services-title {
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
+    text-transform: uppercase;
     color: #1E0606;
+    margin-bottom: 30px;
 }
 
 .services-list {
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 32px;
-    text-align: center;
-    cursor: pointer;
+    align-items: center;
 }
 
 .services-item {
-    background: url('../images/dress.png') no-repeat #DBE4DB;
+    font-family: 'Montserrat';
+    display: flex;
+    text-transform: uppercase;
     width: 280px;
     height: 270px;
-
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    line-height: 32px;
 }
 
-.apparel-kids {
-    background: url('../images/dress.png') no-repeat #DBE4DB;
-    width: 280px;
-    height: 270px;
-
+.services-item:nth-child(1) {
+    background: #DBE4DB;
+    background-image: url(../images/t-shirt.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.services p {
-    font-family: 'Open Sans', sans-serif;
-    width: 580px;
-    height: 44px;
-    padding-top: 30px;
-    margin: 0px 210px;
-    padding-bottom: 90px;
-
+.services-item:nth-child(2) {
+    background: #EADDD3;
+    background-image: url(../images/sock.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.services-item:nth-child(3) {
+    background: #F8F2DA;
+    background-image: url(../images/deer.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item:nth-child(4) {
+    background: #D5D4E1;
+    background-image: url(../images/chupakabra.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services .services-list a {
+    color: #FFFFFF;
+}
+
 
 /* SECTION DELIVERY */
+
+.info-main {
+    
+}
+
+.img-girl {
+
+}
 
 .header-delivery {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
-}
-
-.delivery-button {
-    font-family: 'Crimson Text';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 34px;
-    color: #1E0606;
-    background: rgba(112, 187, 220, 0.2);
-}
-
-.delivery-button-secondary {
-    font-family: 'Crimson Text';
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 34px;
-    color: #1E0606;
 }
 
 /* LOGO */
@@ -144,21 +164,94 @@
     justify-content: space-between;
 }
 
-/* SEACTION 3 */
+/* ARTICLE */
 
-.header-third {
+.info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 152px;
+
+}
+
+.info-block {
+    background: #E1F0F7;
+    padding: 0px 30px 30px;
+    width: 543px;
+    margin-top: 104px;
+}
+
+.info-block:first-child {
+    margin-right: 57px;
+}
+
+
+.info-title {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    margin: -20px 0px 10px;
 }
 
-.about-us {
+.subtitle {
     font-family: 'Crimson Text';
     font-weight: 400;
     font-size: 26px;
     line-height: 34px;
     color: #1E0606;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.info-text {
+    margin: 10px 0px 20px;
+}
+
+.info-text-second {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.info-img {
+    margin-bottom: -159px;
+}
+
+/* POPUP */
+
+.popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(125, 151, 218, 0.8);
+    z-index: 1;
+    padding: 113px 360px;
+    display: none;
+}
+
+.popup-open {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.popup-close {
+    border: none;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+
+}
+
+.popup-form {
+    width: 680px;
+    background: #E5EAF8;
+    padding: 42px 40px;
+    position: relative;
 }

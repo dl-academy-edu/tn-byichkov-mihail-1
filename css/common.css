@@ -20,7 +20,8 @@ body {
 .header {
     display: flex;
     align-items: center;
-    margin: 50px auto 129px;
+    margin: 50px auto 0px;
+    max-width: 1180px;
 }
 
 .header-menu {
@@ -59,6 +60,7 @@ body {
 
 .header-search-lupa {
     margin-left: auto;
+    cursor: pointer;
 }
 
 /* BUTTON */
@@ -72,7 +74,7 @@ body {
     line-height: 22px;
     text-transform: uppercase;
     display: block;
-    width: 161px;
+    width: auto;
     text-align: center;
     padding: 9px 22px;
     border: none;
@@ -84,14 +86,18 @@ body {
 
 .footer {
     background: #434343;
+    width: 100%;
 }
 
+.footer-row {
+    display: flex;
+    max-width: auto;
+    padding-top: 85px;
 
+}
 
-
-
-/* OTHER */
-a {
+.footer a {
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -101,8 +107,198 @@ a {
     margin: 0;
 }
 
+.footer-title {
+    color: #AAAAAA;
+    font-size: 16px;
+    line-height: 21px;
+    height: 45px;
+    border-bottom: 1px solid #666666;
+    width: 380px;
+    margin-bottom: 28px;
+}
+
+.footer-menu {
+    margin-right: 20px;
+}
+
+.footer-content {}
+
+.footer-content li {
+    margin-top: 15px;
+}
+
+.footer-content a {
+    padding-bottom: 15px;
+}
+
+.inline li {
+    display: inline;
+    margin-right: 0px;
+    /* Отступ слева */
+    padding-right: 10px;
+    /* Поля вокруг текста */
+}
+
+.footer-bottom {
+    display: flex;
+    border-top: 1px solid #666666;
+    margin-top: 28px;
+    line-height: 22px;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 90px;
+    width: 100%;
+
+}
+
+.star-rating {
+    margin-right: 170px;
+}
+
+.footer-bottom p {
+    color: #FFFFFF;
+    margin-top: 23px;
+
+}
+
+.footer-bottom a {
+    color: #A2A2A2;
+    margin-left: 110px;
+    margin-top: 23px;
+}
+
+.footer-form {
+    display: flex;
+    max-width: 380px;
+}
+
+/* OTHER */
+a {
+    text-decoration: none;
+}
+
+.undotted {
+    list-style-type: none;
+}
+
 .hidden {
     font-size: 0px;
     line-height: 0px;
     width: 0px;
+}
+
+.star {
+    margin-right: 3px;
+}
+
+
+/* INPUT */
+
+label,
+.label-wrapper span,
+legend {
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    margin-bottom: 3px;
+}
+
+input,
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    line-height: 50px;
+    background: #FFFFFF;
+    color: #1E0606;
+    resize: none;
+    outline: none;
+}
+
+
+
+.footer input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    line-height: 40px;
+    width: 299px;
+    color: #1E0606;
+    resize: none;
+    outline: none;
+    background: #666666;
+}
+
+.footer input::placeholder {
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #EBEBEB;
+    padding-left: 15px;
+}
+
+.footer input:focus {
+    border: 1px solid #FFFDFD;
+}
+
+.footer .button {}
+
+
+input:focus,
+textarea:focus {
+    border: 1px solid #C29974;
+}
+
+input:disabled,
+textarea:disabled {
+    opacity: .5;
+}
+
+textarea {
+    max-height: 150px;
+}
+
+fieldset {
+    border: none;
+    padding: 0px;
+}
+
+.field-2-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field-2-column .label-wrapper {
+    width: 290px;
+}
+
+.label-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.label-wrapper:focus-within label {
+    color: #1E0606;
+}
+
+.contact-list {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 34px;
+}
+
+.checkbox-label::before,
+.checkbox-label::after {
+    content: '';
+    position: absolute;
+    display: block;
 }
