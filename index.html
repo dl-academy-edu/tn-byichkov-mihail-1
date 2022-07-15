@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/common.css">
@@ -16,12 +16,13 @@
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/blog.css">
 	<link rel="stylesheet" href="css/toys.css">
+	<link rel="stylesheet" href="css/catalog.css">
 </head>
 
 <body>
 	<header class="header">
 		<a href="index.html">
-			<img src="images/DLK.jpg" alt="#" class="logo">
+			<img src="images/DLK.jpg" alt="#" width="100" height="52" style="background-color: #E1F0F7" class="logo">
 		</a>
 		<nav class="undotted header-menu">
 			<ul class="undotted header-list">
@@ -36,90 +37,111 @@
 				</li>
 			</ul>
 		</nav>
-		<img src="images/Search.png" alt="" class="header-search-lupa">
+		<img src="images/Search.png" alt="#" width="18" height="18" style="background-color: #FFFFFF"
+			class="header-search-lupa">
 		<a href="contact.html" class="header-search">Contact Us</a>
 	</header>
 	<main class="container">
 		<section class="banner">
-			<p class="numbers">01</p>
-			<div>
+			<div class="container banner-wrapper">
 				<h1 class="banner-title">THE OOH NOO COLLECTION</h1>
 				<p class="banner-text">Designed in Slovenia</p>
 				<button class="button banner-js">explore now</button>
-				<img src="images/monstre.png">
+				<img src="images/monstre.png" alt="#" width="636" height="461">
+			</div>
+			<span class="numbers">01</span>
+			<div class="stick">
+				<button class="stick-1"></button>
+				<button class="stick-2"></button>
+				<button class="stick-2"></button>
+				<button class="stick-2"></button>
 			</div>
 		</section>
 		<div>
 			<p class="text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
 		</div>
 
-		<!-- ЗАКОНЧИТЬ ПЕРЕНОС СЛОВ -->
 		<section class="services">
 			<h2 class="services-title">CATEGORY PRODUCTS</h2>
 			<ul class="services-list  undotted">
 				<li class="services-item">
-					<h3 class="apparel-kids"><a href="#">apparel kids</a></h3>
+					<h3><a href="#">apparel kids</a></h3>
 				</li>
 				<li class="services-item">
-					<h3 class="holiday-shop"><a href="#">holiday shop</a></h3>
+					<h3><a href="#">holiday shop</a></h3>
 				</li>
 				<li class="services-item">
-					<h3 class="toys"><a href="#">toys</a></h3>
+					<h3><a href="#">toys</a></h3>
 				</li>
 				<li class="services-item">
-					<h3 class="accessories"><a href="#">accessories</a></h3>
+					<h3><a href="#">accessories</a></h3>
 				</li>
 			</ul>
-			<!-- ЗАКОНЧИТЬ СТРЕЛОЧКИ -->
-			<div class="button-arrow">
-				<img src="images/button-left.png" alt="">
-				<img src="images/button-right.png" alt="">
-				<p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to
-					furniture for kids and adults.</p>
+			<div class="arrow-info">
+				<div class="button-arrow">
+					<img src="images/button-left.png" alt="" width="37" height="37" style="background-color: #E1F0F7">
+					<img src="images/button-right.png" alt="" width="37" height="37" style="background-color: #E1F0F7">
+				</div>
+				<div>
+					<p class="products-info">Modern finds for the modern home. Curated goods by unique designers around
+						the world from fashion
+						to
+						furniture for kids and adults.</p>
+				</div>
 			</div>
 		</section>
-
-		<section class="info-main">
-			<h2 class="header-delivery">DELIVERY</h2>
-			<ul class="undotted">
-				<li>
-					<a>Delivery</a>
-				</li>
-				<li>
-					<p>Guarantee</p>
-				</li>
-				<li>
-					<p>Credit</p>
-				</li>
-			</ul>
-			<p>Some days i feel like i've been working on dlk my entire life and there are other days that
-				i am completely shocked that four years have flown by. It's simply magical.
-			</p>
-			<p>What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly happy
-				place for me and i have you and all of the beautiful designers that we work with to thank!
-			</p>
-			<a href="#" class="button">Learn More</a>
-			<img src="images/girl.jpg" alt="" class="img-girl">
+		<section class="delivery-info">
+			<div>
+				<img src="images/girl.jpg" alt="" width="480" height="559" style="background-color: #E1F0F7"
+					class="img-girl">
+			</div>
+			<div class="block-info-delivery">
+				<h2 class="header-delivery">DELIVERY</h2>
+				<ul class="undotted delivery-list">
+					<li>
+						<a>Delivery</a>
+					</li>
+					<li>
+						<p>Guarantee</p>
+					</li>
+					<li>
+						<p>Credit</p>
+					</li>
+				</ul>
+				<p class="info-delivery-text">Some days i feel like i've been working on dlk my entire life and there
+					are other days that
+					i am completely shocked that four years have flown by. It's simply magical.
+				</p>
+				<p class="info-delivery-text">What started as an outlet to deal with the traumatic loss of my husband,
+					dlk has now become a truly
+					happy
+					place for me and i have you and all of the beautiful designers that we work with to thank!
+				</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
 		</section>
 
 		<section class="awards">
 			<h2 class="hidden">Awards</h2>
 			<ul class="undotted awards-list">
 				<li>
-					<img src="images/brands/logo_mail.jpg" alt="">
+					<img src="images/brands/logo-mail.jpg" alt="" width="193" height="60"
+						style="background-color: #E1F0F7">
 				</li>
 				<li class="awards-logo">
-					<img src="images/brands/logo_apple.jpg" alt="">
+					<img src="images/brands/logo-apple.jpg" alt="" width="179" height="61"
+						style="background-color: #E1F0F7">
 				</li>
 				<li class="awards-logo">
-					<img src="images/brands/logo_eltex.jpg" alt="">
+					<img src="images/brands/logo-eltex.jpg" alt="" width="216" height="46"
+						style="background-color: #E1F0F7">
 				</li>
 				<li class="awards-logo">
-					<img src="images/brands/logo_owox.jpg" alt="">
+					<img src="images/brands/logo-owox.jpg" alt="" width="211" height="40"
+						style="background-color: #E1F0F7">
 				</li>
 			</ul>
 		</section>
-
 
 		<article class="info container">
 			<div class="info-block">
@@ -135,7 +157,10 @@
 				<p class="info-text-second">Some days i feel like i've been working on dlk my entire life and there are
 					other days that
 					i am completely shocked that four years have flown by. It's simply magical.</p>
-				<img src="images/map.jpg" alt="" class="info-img" width: 483px; height: 196px;>
+				<iframe
+					src="https://yandex.ru/map-widget/v1/?um=constructor%3A382243aa78676879a131136c1c25e4bbe7b015df919b389902515bd4e7f46d4e&amp;source=constructor"
+					width="483" height="196" class="info-img">
+				</iframe>
 			</div>
 		</article>
 	</main>
@@ -168,7 +193,7 @@
 				<p class="footer-title">Customer Information</p>
 				<ul class="undotted footer-content">
 					<li>
-						<a href="#">Contact us</a>
+						<a href="#">Contact Us</a>
 					</li>
 					<li>
 						<a href="#">Sale Exclusions</a>
@@ -191,14 +216,14 @@
 				<p class="footer-title">Connect</p>
 				<form class="footer-form">
 					<label for="input-name"></label>
-					<input type="email" id="input-name" class="#" placeholder="Email">
+					<input type="email" id="#" placeholder="Email">
 					<button class="button" type="submit">join</button>
 				</form>
 				<ul class="undotted inline" style="margin-top: 20px;">
 					<li>
 						<a href="#">
 							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-								xmlns="http://www.w3.org/2000/svg">
+								xmlns="http://www.w3.org/2000/svg" class="social">
 								<path fill-rule="evenodd" clip-rule="evenodd"
 									d="M0 15C0 6.71573 6.71573 0 15 0V0C23.2843 0 30 6.71573 30 15V15C30 23.2843 23.2843 30 15 30V30C6.71573 30 0 23.2843 0 15V15Z"
 									fill="#666666" />
@@ -211,7 +236,7 @@
 					<li>
 						<a href="#">
 							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-								xmlns="http://www.w3.org/2000/svg">
+								xmlns="http://www.w3.org/2000/svg" class="social">
 								<path fill-rule="evenodd" clip-rule="evenodd"
 									d="M0 15C0 6.71573 6.71573 0 15 0V0C23.2843 0 30 6.71573 30 15V15C30 23.2843 23.2843 30 15 30V30C6.71573 30 0 23.2843 0 15V15Z"
 									fill="#666666" />
@@ -224,7 +249,7 @@
 					<li>
 						<a href="#">
 							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-								xmlns="http://www.w3.org/2000/svg">
+								xmlns="http://www.w3.org/2000/svg" class="social">
 								<path fill-rule="evenodd" clip-rule="evenodd"
 									d="M0 15C0 6.71573 6.71573 0 15 0V0C23.2843 0 30 6.71573 30 15V15C30 23.2843 23.2843 30 15 30V30C6.71573 30 0 23.2843 0 15V15Z"
 									fill="#666666" />
@@ -237,7 +262,7 @@
 					<li>
 						<a href="#">
 							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-								xmlns="http://www.w3.org/2000/svg">
+								xmlns="http://www.w3.org/2000/svg" class="social">
 								<path fill-rule="evenodd" clip-rule="evenodd"
 									d="M0 15C0 6.71573 6.71573 0 15 0V0C23.2843 0 30 6.71573 30 15V15C30 23.2843 23.2843 30 15 30V30C6.71573 30 0 23.2843 0 15V15Z"
 									fill="#666666" />
@@ -250,10 +275,12 @@
 				</ul>
 			</div>
 		</div>
+		<!-- СДЕЛАТЬ ПОДСВЕЧИВАЮЩИЕ ЗВЕЗДЫ -->
 		<div class="footer-row footer-bottom container">
-			<p class="star-rating">Company Rating <img src="images/Star.png" alt="" class="star"> <img
-					src="images/Star.png" alt="" class="star"> <img src="images/Star.png" alt="" class="star"> <img
-					src="images/Star.png" alt="" class="star"> <img src="images/Star.png" alt="" class="star"></p>
+			<p class="footer-p1">Company Rating</p>
+			<span class="five-star"><img src="/images/Star.png" alt="#" class="star"><img src="/images/Star.png" alt="#"
+					class="star"><img src="/images/Star.png" alt="#" class="star"><img src="/images/Star.png" alt="#"
+					class="star"><img src="/images/Star.png" alt="#" class="star"></span>
 			<p>Copyright © 2018 Dlk • Design Life Kids</p>
 			<a href="#">Web Design — Direct Line Development</a>
 		</div>
@@ -280,7 +307,7 @@
 
 			<div class="label-wrapper">
 				<label for="textarea">Message</label>
-				<textarea name="" id="textarea" cols="60" rows="15"></textarea>
+				<textarea name="#" id="textarea" cols="60" rows="15"></textarea>
 			</div>
 			<div class="label-wrapper contact-list">
 				<input type="checkbox" id="input-cash" class="checkbox-input" checked>

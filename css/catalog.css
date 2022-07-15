@@ -1,9 +1,7 @@
-.services-catalog {
-    margin-top: 60px;
-}
+
 
 .services-title-catalog {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
@@ -14,12 +12,12 @@
 
 .services-list-catalog {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .services-item-catalog {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
     display: flex;
     text-transform: uppercase;
     width: 280px;
@@ -28,8 +26,14 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 23px;
+}
+
+.services-catalog .services-list-catalog a {
     font-size: 26px;
     line-height: 32px;
+    color: #FFFFFF;
 }
 
 .services-item-catalog:nth-child(1) {
@@ -62,6 +66,7 @@
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
+    margin-left: 200px;
 }
 
 .services-item-catalog:nth-child(5) {
@@ -80,14 +85,22 @@
     background-repeat: no-repeat;
 }
 
+.services-catalog .services-list-catalog h2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+
 .product-title {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
-    margin: 55px 604px 25px 310px;
+    margin: 35px 604px 25px 200px;
     width: 486px;
 }
 
@@ -96,7 +109,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
-    margin: 25px 410px 15px 310px;
+    margin: 0px 410px 15px 200px;
     width: 680px;
 }
 

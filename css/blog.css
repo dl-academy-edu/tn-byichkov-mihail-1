@@ -3,9 +3,11 @@
     line-height: 22px;
     color: #818181;
     width: 132px;
+    margin-bottom: -16px;
 }
 
 .title-text {
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
@@ -20,7 +22,8 @@
 
 .blog-text {
     max-width: 380px;
-    height: auto;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .blog-info-one {
@@ -31,4 +34,12 @@
 .blog-info-two {
     display: flex;
     justify-content: space-between;
+    margin-top: 12px;
+}
+
+/* HOVER */
+
+.title-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
