@@ -209,10 +209,6 @@ input[type=radio]:checked+.radio-amount-label {
     line-height: 19px;
     color: #1E0606;
     margin-top: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
 }
 
 .product-card span {
