@@ -115,6 +115,10 @@ body {
     opacity: .5;
 }
 
+.pages-list .first-active {
+    color: #C29974;
+}
+
 /* PAGINATION */
 
 .pagination {
