@@ -12,37 +12,37 @@
 		rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/contact.css">
-	<link rel="stylesheet" href="css/blog.css">
-	<link rel="stylesheet" href="css/toys.css">
-	<link rel="stylesheet" href="css/catalog.css">
 </head>
 
 <body>
 	<header class="header">
 		<a href="index.html">
-			<img src="images/DLK.jpg" alt="#" width="100" height="52" style="background-color: #E1F0F7" class="logo">
+			<img src="images/DLK.jpg" alt="#" width="100" height="52" class="logo">
 		</a>
 		<nav class="undotted header-menu">
 			<ul class="undotted header-list">
 				<li>
-					<a href="#">Blog</a>
+					<a href="blog.html">Blog</a>
 				</li>
 				<li>
-					<a href="#">Catalog</a>
+					<a href="catalog.html">Catalog</a>
 				</li>
 				<li>
 					<a href="#">About us</a>
 				</li>
 			</ul>
 		</nav>
-		<img src="images/Search.png" alt="" width="18" height="18" style="background-color: #FFFFFF" class="header-search-lupa">
+		<img src="images/Search.png" alt="" width="18" height="18" class="search-icon">
 		<a href="contact.html" class="header-search">Contact Us</a>
 	</header>
 	<main class="container">
 		<section>
 			<h1 class="contact-title title-wrapper">Contact Us</h1>
+			<div class="breadcrumbs container">
+				<a class="breadcrumbs-next" href="index.html">Home</a>
+				<p class="breadcrumbs-disable">Contact Us</p>
+			</div>
 			<div class="contact-info">
 				<form action="#" class="contact-form">
 					<div class="label-wrapper">
@@ -63,7 +63,7 @@
 					</div>
 					<div class="label-wrapper">
 						<label for="textarea">Message</label>
-						<textarea name="" id="textarea" cols="60" rows="15"></textarea>
+						<textarea id="textarea" cols="60" rows="15"></textarea>
 					</div>
 					<div class="label-wrapper contact-list">
 						<input type="checkbox" id="input-cash" class="checkbox-input" checked>
@@ -134,8 +134,8 @@
 			<div class="footer-menu">
 				<p class="footer-title">Connect</p>
 				<form class="footer-form">
-					<label for="input-name"></label>
-					<input type="email" id="input-name" class="#" placeholder="Email">
+					<label for="email"></label>
+					<input type="email" id="email" name="email" class="#" placeholder="Email">
 					<button class="button" type="submit">join</button>
 				</form>
 				<ul class="undotted inline" style="margin-top: 20px;">
@@ -196,9 +196,18 @@
 		</div>
 		<div class="footer-row footer-bottom container">
 			<p class="footer-p1">Company Rating</p>
-			<span class="five-star"><img src="/images/Star.png" alt="#" class="star"><img src="/images/Star.png" alt="#"
-					class="star"><img src="/images/Star.png" alt="#" class="star"><img src="/images/Star.png" alt="#"
-					class="star"><img src="/images/Star.png" alt="#" class="star"></span>
+			<div class="rating-area">
+				<input type="radio" id="star-5" name="rating" value="5">
+				<label for="star-5"></label>
+				<input type="radio" id="star-4" name="rating" value="4">
+				<label for="star-4"></label>
+				<input type="radio" id="star-3" name="rating" value="3">
+				<label for="star-3"></label>
+				<input type="radio" id="star-2" name="rating" value="2">
+				<label for="star-2"></label>
+				<input type="radio" id="star-1" name="rating" value="1">
+				<label for="star-1"></label>
+			</div>
 			<p>Copyright © 2018 Dlk • Design Life Kids</p>
 			<a href="#">Web Design — Direct Line Development</a>
 		</div>
