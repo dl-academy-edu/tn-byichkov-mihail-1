@@ -324,6 +324,13 @@ a {
 
 /* INPUT */
 
+.option label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
 label,
 .label-wrapper span,
 legend {
@@ -432,7 +439,7 @@ input[type="radio"] {
 .checkbox-label {
     position: relative;
     cursor: pointer;
-    padding-left: 34px;
+    padding-left: 30px;
 }
 
 .checkbox-label::before,
