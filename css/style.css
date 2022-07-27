@@ -1,45 +1,42 @@
 /* BANNER */
 
-
-
 .banner {
     position: relative;
     background: #EEE4DB;
-    background-size: contain;
-    width: 1180px;
-    height: 372px;
+    padding: 89px 0px;
     margin-top: 129px;
-    padding: 89px 0 89px 133px;
+}
+
+.banner-wrapper {
+    margin-left: 133px;
 }
 
 .banner img {
     position: absolute;
     top: -89px;
     right: 100px;
-
 }
 
 .banner-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 110%;
     color: #1E0606;
+    margin: 0px;
     width: 30%;
-    
 }
 
 .banner-text {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', 'Gill Sans', serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     color: #1E0606;
-    margin: 20px 0px;
-   }
+}
 
 .text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Gill Sans', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
@@ -52,90 +49,211 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 1180px;
+    width: 1180px;
+}
 
+.numbers {
+    position: absolute;
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    opacity: 5%;
+    top: 17px;
+    left: 28px;
+}
+
+.stick {
+    color: #D6CAC2;
+    position: absolute;
+    top: 101px;
+    left: 31px;
+}
+
+.stick-1 {
+    width: 31px;
+    height: 3px;
+    background: #725F5B;
+    margin-bottom: 11px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.stick-2 {
+    width: 31px;
+    height: 3px;
+    background: #D6CAC2;
+    margin-bottom: 11px;
+    border: none;
+    cursor: pointer;
+}
+
+.stick button {
+    display: block;
 }
 
 /* CATEGORY PRODUCTS */
 
 .services {
-    font-family: 'Montserrat';
-    text-transform: uppercase p none;
     margin-top: 90px;
 }
 
 .services-title {
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
+    text-transform: uppercase;
     color: #1E0606;
+    margin-bottom: 30px;
 }
 
 .services-list {
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 32px;
+    align-items: center;
+}
+
+.services .services-list h3 {
+    display: flex;
+    align-items: center;
     text-align: center;
-    cursor: pointer;
+    justify-content: center;
+    width: 50%;
 }
 
 .services-item {
-    background: url('../images/dress.png') no-repeat #DBE4DB;
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
+    display: flex;
+    text-transform: uppercase;
     width: 280px;
     height: 270px;
-
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.apparel-kids {
-    background: url('../images/dress.png') no-repeat #DBE4DB;
-    width: 280px;
-    height: 270px;
-
+.services-item:nth-child(1) {
+    background: #DBE4DB;
+    background-image: url(../images/t-shirt.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.services p {
-    font-family: 'Open Sans', sans-serif;
+.services-item:nth-child(2) {
+    background: #EADDD3;
+    background-image: url(../images/sock.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item:nth-child(3) {
+    background: #F8F2DA;
+    background-image: url(../images/deer.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-item:nth-child(4) {
+    background: #D5D4E1;
+    background-image: url(../images/chupakabra.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services .services-list a {
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.arrow-info {
+    display: flex;
+    margin-top: 33px;
+}
+
+.button-arrow {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.products-info {
     width: 580px;
-    height: 44px;
-    padding-top: 30px;
-    margin: 0px 210px;
-    padding-bottom: 90px;
-
+    margin: 0px;
 }
 
 /* SECTION DELIVERY */
 
-.header-delivery {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 46px;
+.delivery-info {
+    display: flex;
+    margin-top: 90px;
 }
 
-.delivery-button {
-    font-family: 'Crimson Text';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 34px;
-    color: #1E0606;
-    background: rgba(112, 187, 220, 0.2);
+.delivery-info img {
+    background: #7D97DA33;
 }
 
-.delivery-button-secondary {
-    font-family: 'Crimson Text';
+.delivery-list {
+    font-family: 'Crimson Text', 'Gill Sans', serif;
+    font-style: italic;
     font-weight: 400;
     font-size: 26px;
     line-height: 34px;
     color: #1E0606;
+    margin-top: -5px;
+    margin-bottom: 44px;
 }
 
-/* LOGO */
+.delivery-list a {
+    background: #70BBDC33;
+    padding: 11px 180px 11px 60px;
+    margin-left: -60px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.delivery-list p {
+    margin-bottom: -12px;
+}
+
+.block-info-delivery {
+    margin-left: 121px;
+    margin-bottom: 10px;
+}
+
+.info-delivery-text {
+    width: 480px;
+    margin-bottom: 15px;
+}
+
+.header-delivery {
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 17px
+}
+
+.delivery-info .button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* LOGO */  
 
 .awards {
-    margin-top: 101px;
+    margin-top: 85px;
+}
+
+.awards img {
+    background: #7D97DA33;
 }
 
 .awards-list {
@@ -144,21 +262,143 @@
     justify-content: space-between;
 }
 
-/* SEACTION 3 */
+/* ARTICLE */
 
-.header-third {
-    font-family: 'Montserrat';
+.info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 152px;
+
+}
+
+.info-block {
+    background: #E1F0F7;
+    padding: 0px 30px 30px;
+    width: 543px;
+    margin-top: 104px;
+}
+
+.info-block:first-child {
+    margin-right: 57px;
+}
+
+
+.info-title {
+    font-family: 'Montserrat', 'Gill Sans', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    margin: -20px 0px 10px;
 }
 
-.about-us {
-    font-family: 'Crimson Text';
+.subtitle {
+    font-family: 'Crimson Text', 'Gill Sans', sans-serif;
     font-weight: 400;
     font-size: 26px;
     line-height: 34px;
     color: #1E0606;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
+
+.info-text {
+    margin: 10px 0px 20px;
+}
+
+.info-text-second {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.info-img {
+    margin-bottom: -159px;
+    border: none;
+}
+
+/* POPUP */
+
+.popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(125, 151, 218, 0.8);
+    z-index: 1;
+    padding: 113px 360px;
+    display: none;
+}
+
+.popup-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-close {
+    border: none;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    right: -30px;
+
+}
+
+.popup-form {
+    width: 680px;
+    background: #E5EAF8;
+    padding: 42px 40px;
+    position: relative;
+}
+
+
+
+
+/* .rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 17px;
+    height: 16px;
+	padding: 0;
+	cursor: pointer;
+	
+	
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.rating-area input {
+    margin-right: 3px;
+} */
